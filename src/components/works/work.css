@@ -1,0 +1,28 @@
+/* body {
+  background: linear-gradient(
+      -45deg,
+      transparent 0%,
+      rgb(48, 52, 85) 20%,
+      rgb(48, 52, 85) 80%,
+      transparent 100%
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.2) 0px,
+      rgb(255, 255, 255, 0.2) 1px,
+      transparent 1px,
+      transparent 13px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgb(255, 255, 255, 0.2) 0px,
+      rgb(255, 255, 255, 0.2) 1px,
+      transparent 1px,
+      transparent 13px
+    ),
+    linear-gradient(290deg, rgb(48, 52, 85), rgb(48, 52, 85));
+} */
+
+/* .card {
+  background: linear-gradient(to bottom right, #282b47, #2e3570);
+} */
