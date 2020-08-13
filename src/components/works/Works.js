@@ -1,16 +1,14 @@
-import React, { useEffect, useState } from "react";
-import Navbar from "../navbar/Navbar";
+import React from "react";
 import Footer from "../footer/Footer";
-import almas from "../../assets/almas.png";
-import karunya from "../../assets/karunya.png";
-import fakebuster from "../../assets/fakebuster.png";
-import garud from "../../assets/garud.png";
+import almas from "../../assets/almas.jpg";
+import karunya from "../../assets/karunya.jpg";
+import fakebuster from "../../assets/fakebuster.jpg";
+import garud from "../../assets/garud.jpg";
 import "./work.css";
 
 export default function Works() {
   return (
     <React.Fragment className="bg-valorant-violet">
-      {/* <Navbar /> */}
       <div className="min-h-screen">
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-20">
           <div className="flex w-full items-center">
