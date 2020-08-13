@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Suspense fallback={Footer}>
+        <Suspense fallback={<Footer />}>
           <Navbar />
           <Switch>
             <Route exact path="/">
