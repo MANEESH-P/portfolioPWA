@@ -10,8 +10,20 @@ const Navbar = React.lazy(() => import("../src/components/navbar/Navbar"));
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Suspense fallback={<Footer />}>
+      <Suspense
+        fallback={
+          <div
+            style={{
+              backgroundColor: "#303455",
+              height: "100vh",
+              color: "white",
+            }}
+          >
+            <Footer />
+          </div>
+        }
+      >
+        <Router>
           <Navbar />
           <Switch>
             <Route exact path="/">
@@ -27,8 +39,8 @@ function App() {
               <Art />
             </Route>
           </Switch>
-        </Suspense>
-      </Router>
+        </Router>
+      </Suspense>
     </div>
   );
 }
