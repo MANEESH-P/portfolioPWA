@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import Navbar from "../navbar/Navbar";
+import React from "react";
+
 import Footer from "../footer/Footer";
 import "./home.css";
 
@@ -29,6 +29,14 @@ export default function Home() {
           </div>
         </header>
       </main>
+      {/* <div className="sky-container">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </div> */}
+
       <Footer />
     </>
   );
