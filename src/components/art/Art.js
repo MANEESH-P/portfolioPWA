@@ -24,10 +24,10 @@ export default function Art() {
       <div className="min-h-screen mb-20">
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-20">
           <div className="flex w-full items-center">
-            <div className="w-3/6 sm:w-1/4">
+            <div className="w-3/6 sm:w-1/4 md:w-3/6 lg:w-1/4">
               <h1 className="inline-block text-4xl">Sketches</h1>
             </div>
-            <hr className="w-3/6 border-valorant-red border-t-2 mt-6 ml-px sm:w-3/4 inline-block" />
+            <hr className="w-3/6 border-valorant-red border-t-2 mt-6 ml-px sm:w-3/4 md:ww-3/6 lg:w-3/4 inline-block" />
           </div>
         </div>
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-10">
@@ -101,8 +101,10 @@ export default function Art() {
         </div>
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-20">
           <div className="flex w-full items-center">
-            <h1 className="w-3/6 sm:w-1/4 inline-block text-4xl">Renders</h1>
-            <hr className="w-3/6 border-valorant-red border-t-2 mt-6 ml-px sm:w-3/4 inline-block" />
+            <h1 className="w-3/6 sm:w-1/4 md:w-3/6 lg:w-1/4 inline-block text-4xl">
+              Renders
+            </h1>
+            <hr className="w-3/6 border-valorant-red border-t-2 mt-6 ml-px sm:w-3/4 md:sm-3/6 lg:w-3/4 inline-block" />
           </div>
         </div>
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-10 grid grid-col-1 sm:grid-cols-2 gap-10 mb-10">

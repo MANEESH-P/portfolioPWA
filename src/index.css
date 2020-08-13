@@ -162,7 +162,7 @@ a {
 }
 
 input:checked + .slider {
-  background-color: #a0aec0;
+  background-color: #c3dafe;
 }
 
 input:focus + .slider {
@@ -173,7 +173,7 @@ input:checked + .slider:before {
   -webkit-transform: translateX(28px);
   -ms-transform: translateX(28px);
   transform: translateX(28px);
-  background: #a0aec0 url("../src/assets/sunny.png");
+  background: #c3dafe url("../src/assets/sunny.png");
   background-repeat: no-repeat;
   background-position: center;
 }
