@@ -25,3 +25,191 @@ body {
 
   /* color: white; */
 }
+body {
+  background: linear-gradient(
+      231deg,
+      transparent 0%,
+      rgb(203, 213, 224) 40%,
+      rgb(203, 213, 224, 1) 65%,
+      transparent 100%
+    ),
+    repeating-linear-gradient(
+      141deg,
+      rgba(255, 255, 255, 0.5) 0px,
+      rgb(255, 255, 255, 0.5) 1px,
+      transparent 1px,
+      transparent 13px
+    ),
+    repeating-linear-gradient(
+      231deg,
+      rgb(255, 255, 255, 0.2) 0px,
+      rgb(255, 255, 255, 0.2) 1px,
+      transparent 1px,
+      transparent 13px
+    ),
+    linear-gradient(231deg, rgb(203, 213, 224), rgb(203, 213, 224));
+}
+
+.theme-light {
+  --color-primary: #efeff5;
+  --color-secondary: #4a5568;
+  --color-accent: #ff4655;
+  --font-color: #2d3748;
+  --bg-primary: #efeff5;
+  --border-primary: #fff;
+  --background: linear-gradient(
+      231deg,
+      transparent 0%,
+      rgb(239, 239, 245) 40%,
+      rgb(239, 239, 245) 65%,
+      transparent 100%
+    ),
+    repeating-linear-gradient(
+      141deg,
+      rgba(15, 25, 35, 0.6) 0px,
+      rgb(15, 25, 35, 0.6) 1px,
+      transparent 1px,
+      transparent 13px
+    ),
+    repeating-linear-gradient(
+      231deg,
+      rgb(15, 25, 35, 0.2) 0px,
+      rgb(15, 25, 35, 0.2) 1px,
+      transparent 1px,
+      transparent 13px
+    ),
+    linear-gradient(231deg, rgb(239, 239, 245), rgb(239, 239, 245));
+}
+.theme-dark {
+  --color-primary: #303455;
+  --color-secondary: #cbd5e0;
+  --color-accent: #ff4655;
+  --font-color: #ffffff;
+  --bg-primary: #303455;
+  --border-primary: #fff;
+  --background: linear-gradient(
+      231deg,
+      transparent 0%,
+      rgb(48, 52, 85) 40%,
+      rgb(48, 52, 85) 65%,
+      transparent 100%
+    ),
+    repeating-linear-gradient(
+      141deg,
+      rgba(255, 255, 255, 0.5) 0px,
+      rgb(255, 255, 255, 0.5) 1px,
+      transparent 1px,
+      transparent 13px
+    ),
+    repeating-linear-gradient(
+      231deg,
+      rgb(255, 255, 255, 0.2) 0px,
+      rgb(255, 255, 255, 0.2) 1px,
+      transparent 1px,
+      transparent 13px
+    ),
+    linear-gradient(231deg, rgb(48, 52, 85), rgb(48, 52, 85));
+}
+
+body {
+  background: var(--background);
+}
+
+h1 {
+  color: var(--font-color);
+}
+
+h2 {
+  color: var(--color-secondary);
+}
+
+p {
+  color: var(--color-secondary);
+}
+
+a {
+  color: var(--color-secondary);
+}
+
+.bg-primary-color {
+  background-color: var(--bg-primary);
+}
+
+.border-primary-color {
+  border: var(--border-primary);
+}
+
+.accent-color {
+  color: var(--color-accent);
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 25px;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1e2038;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 32px;
+  width: 32px;
+  left: 0px;
+  bottom: 4px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  box-shadow: 0 0px 15px #2020203d;
+  background: #1e2038 url("https://i.ibb.co/FxzBYR9/night.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input:checked + .slider {
+  background-color: #a0aec0;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 5px var(--color-secondary);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(28px);
+  -ms-transform: translateX(28px);
+  transform: translateX(28px);
+  background: #a0aec0 url("https://i.ibb.co/7JfqXxB/sunny.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

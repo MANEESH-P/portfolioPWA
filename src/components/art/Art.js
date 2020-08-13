@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 import logan from "../../assets/logan.jpg";
@@ -18,16 +18,9 @@ import campfire from "../../assets/campfire.jpg";
 
 import "./art.css";
 export default function Art() {
-  useEffect(() => {
-    document.body.style.background =
-      "linear-gradient(-45deg, transparent 0%,rgb(48,52,85) 20%,rgb(48,52,85) 80%,transparent 100%),repeating-linear-gradient(45deg, rgba(255,255,255, 0.2) 0px, rgba(255,255,255, 0.2) 1px,transparent 1px, transparent 13px),repeating-linear-gradient(45deg, rgba(255,255,255, 0.2) 0px, rgba(255,255,255, 0.2) 1px,transparent 1px, transparent 13px),linear-gradient(290deg, rgb(48,52,85),rgb(48,52,85))";
-    return function cleanUp() {
-      document.body.style.background = "#303455";
-    };
-  });
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="min-h-screen mb-20">
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-20">
           <div className="flex w-full items-center">
@@ -113,7 +106,7 @@ export default function Art() {
           </div>
         </div>
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-10 grid grid-col-1 sm:grid-cols-2 gap-10 mb-10">
-          <div class="max-w-sm rounded overflow-hidden shadow-2xl bg-valorant-violet">
+          <div class="max-w-sm rounded overflow-hidden shadow-2xl">
             <a
               href="https://sketchfab.com/3d-models/gec-palakkad-kerala-india-de1a0de146fd4aa69221b8679d9459cd"
               target="_blank"
@@ -121,32 +114,32 @@ export default function Art() {
             >
               <img class="w-full" src={gec} alt="Sunset in the mountains" />
             </a>
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">College 3D model</div>
-              <p class="text-gray-400 text-base">
+            <div class="px-6 py-4 bg-primary-color">
+              <div class="font-bold text-xl mb-2">
+                <h2>College 3D model</h2>
+              </div>
+              <p class="text-base">
                 3D model of Govt Engineerng College Palakkad using Blender.
                 Click to view.
               </p>
             </div>
           </div>
-          <div class="max-w-sm rounded overflow-hidden shadow-2xl bg-valorant-violet">
+          <div class="max-w-sm rounded overflow-hidden bg-primary-color shadow-2xl">
             <img class="w-full" src={house} alt="Sunset in the mountains" />
-
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Lowpoly House</div>
-              <p class="text-gray-400 text-base">
-                Simple lowpoly 3D model of a house.
-              </p>
+            <div class="px-6 py-4 bg-primary-color">
+              <div class="font-bold text-xl mb-2">
+                <h2>Lowpoly House</h2>
+              </div>
+              <p class="text-base">Simple lowpoly 3D model of a house.</p>
             </div>
           </div>
-          <div class="max-w-sm rounded overflow-hidden shadow-2xl bg-valorant-violet">
+          <div class="max-w-sm rounded overflow-hidden shadow-2xl">
             <img class="w-full" src={campfire} alt="Sunset in the mountains" />
-
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Campfire</div>
-              <p class="text-gray-400 text-base">
-                3D model of a campfire scene in lowpoly.
-              </p>
+            <div class="px-6 py-4 bg-primary-color">
+              <div class="font-bold text-xl mb-2 ">
+                <h2>Campfire</h2>
+              </div>
+              <p class="text-base ">3D model of a campfire scene in lowpoly.</p>
             </div>
           </div>
         </div>

@@ -4,10 +4,12 @@ import Home from "../src/components/home/Home";
 import About from "../src/components/about/About";
 import Works from "../src/components/works/Works";
 import Art from "../src/components/art/Art";
+import Navbar from "../src/components/navbar/Navbar";
 function App() {
   return (
     <div className="App">
       <Router>
+        <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />

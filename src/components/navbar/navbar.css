@@ -1,7 +1,10 @@
 a.nav:hover {
-  border-bottom: 2px solid #ff4655;
+  transform: scale(1.2);
+  transition: all 0.1s ease-in;
+  color: var(--color-accent);
 }
-/* 
-div.container {
-  position: fixed;
-} */
+
+.nav-div {
+  color: var(--font-color);
+  background-color: var(--color-primary);
+}

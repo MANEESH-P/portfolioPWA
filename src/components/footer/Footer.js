@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="flex justify-between p-5 md:px-2 md:py-10 lg:py-10 flex flex-wrap sm:w-1/2 sm:ml-auto sm:mr-auto">
       <div className="">
-        <p className="">Maneesh P &copy; 2020</p>
+        <h1 className="">Maneesh P &copy; 2020</h1>
       </div>
       <div className="flex justify-end">
         <ul className="flex justify-end">
