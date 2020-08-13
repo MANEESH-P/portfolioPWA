@@ -87,7 +87,7 @@ export default function Navbar() {
             class="focus:outline-none flex items-center px-3 py-2 pb-1 border rounded text-white border-primary-color hover:text-white  hover:border-white"
           >
             <svg
-              class="fill-current h-3 w-3"
+              class="fill-current h-4 w-4"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
