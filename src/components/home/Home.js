@@ -6,7 +6,6 @@ import "./home.css";
 export default function Home() {
   return (
     <>
-      {/* <Navbar /> */}
       <main className="flex items-center justify-center h-screen scene z-20">
         <header className="grid grid-cols-12 leading-tight transform -translate-y-16 xs:-translate-y-1/2 sm:-translate-y-12 md:-translate-y-16 lg:-translate-y-1/2">
           <div className="flex items-end col-start-3 col-span-10 lg:col-start-4 lg:col-span-5">
@@ -29,14 +28,6 @@ export default function Home() {
           </div>
         </header>
       </main>
-      {/* <div className="sky-container">
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-      </div> */}
-
       <Footer />
     </>
   );

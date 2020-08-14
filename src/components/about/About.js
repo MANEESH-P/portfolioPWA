@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import Navbar from "../navbar/Navbar";
+import React from "react";
 import Footer from "../footer/Footer";
 import img from "../../assets/pro2.jpg";
 import "./about.css";
@@ -7,7 +6,6 @@ import "./about.css";
 export default function About() {
   return (
     <>
-      {/* <Navbar /> */}
       <div className="min-h-screen text-justify">
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-20">
           <div className="flex w-full items-center">
@@ -18,9 +16,9 @@ export default function About() {
             <hr className="w-3/6 border-valorant-red border-t-2 mt-6 ml-px sm:w-3/4 md:w-3/6 lg:w-3/4 inline-block" />
           </div>
           <p className="text-xl mt-5">
-            Software Engineer based out of India. Hobby artist, casual gamer,
-            big time foodie with a relentless desire to bring the best out of
-            the web.
+            Software Engineer based in India. Hobby artist, casual gamer, big
+            time foodie with a relentless desire to bring the best out of the
+            web.
           </p>
         </div>
         <div class="flex sm:w-1/4 ml-5 sm:ml-auto mr-5 sm:mr-auto mt-10">

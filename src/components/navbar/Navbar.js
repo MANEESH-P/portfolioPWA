@@ -7,11 +7,6 @@ const toggleNavbar = () => {
   mobileMenu.classList.toggle("hidden");
 };
 
-// const setTheme = (theme) => {
-//   localStorage.setItem("theme", theme);
-//   // setTheme(theme);
-// };
-
 export default function Navbar() {
   let localStorage = window.localStorage;
   const [theme, setTheme] = useState("theme-dark");
@@ -26,25 +21,6 @@ export default function Navbar() {
     }
     console.log(theme);
   };
-
-  // useEffect(() => {
-  //   var localStorage = window.localStorage;
-  //   if (localStorage.getItem("theme") === null) {
-  //     console.log(localStorage.getItem("theme"));
-  //     localStorage.setItem("theme", "theme-dark");
-  //     setTheme("theme-dark");
-  //   } else {
-  //     console.log("else");
-  //     setTheme(localStorage.getItem("theme"));
-  //   }
-  // if (theme === "theme-dark") {
-  //   document.body.classList.remove("theme-light");
-  //   document.body.classList.add("theme-dark");
-  // } else {
-  //   document.body.classList.remove("theme-dark");
-  //   document.body.classList.add("theme-light");
-  // }
-  // }, []);
 
   useEffect(() => {
     console.log("here");
