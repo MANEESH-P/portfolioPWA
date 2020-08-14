@@ -32,7 +32,7 @@ export default function Navbar() {
   });
 
   return (
-    <div className="nav-div shadow-xl z-50">
+    <div className="nav-div shadow-xl sm:shadow-none z-50">
       <nav class="flex items-center justify-between flex-wrap p-6 pl-5 pr-5  sm:px-40 sm:py-10 md:px-20 lg:px-40">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
           <Link to="/">
@@ -87,7 +87,7 @@ export default function Navbar() {
         </div>
         <div
           id="mobileMenu"
-          class="mt-1 w-full bg-primary-color lg:block hidden flex-grow flex lg:items-center  lg:w-auto z-40"
+          class="mt-1 w-full lg:block hidden flex-grow flex lg:items-center  lg:w-auto z-40"
         >
           <div class="text-sm lg:flex justify-end">
             <Link

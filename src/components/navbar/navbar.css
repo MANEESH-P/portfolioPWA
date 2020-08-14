@@ -11,5 +11,11 @@ a.nav:hover {
 
 .nav-div {
   color: var(--font-color);
-  background-color: var(--color-primary);
+}
+
+@media screen and (max-width: 600px) {
+  .nav-div {
+    color: var(--font-color);
+    background-color: var(--color-primary);
+  }
 }

@@ -906,6 +906,10 @@ video {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
+.shadow-none{
+  box-shadow: none;
+}
+
 .fill-current{
   fill: currentColor;
 }
@@ -1180,6 +1184,10 @@ video {
 
   .sm\:pr-5{
     padding-right: 1.25rem;
+  }
+
+  .sm\:shadow-none{
+    box-shadow: none;
   }
 
   .sm\:w-1\/2{
