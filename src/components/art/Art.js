@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import Navbar from "../navbar/Navbar";
+import React from "react";
 import Footer from "../footer/Footer";
 import logan from "../../assets/logan.jpg";
 import tony from "../../assets/tony.jpg";
@@ -20,7 +19,6 @@ import "./art.css";
 export default function Art() {
   return (
     <>
-      {/* <Navbar /> */}
       <div className="min-h-screen mb-20">
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-20">
           <div className="flex w-full items-center">

@@ -19,11 +19,9 @@ export default function Navbar() {
       setTheme("theme-dark");
       localStorage.setItem("theme", "theme-dark");
     }
-    console.log(theme);
   };
 
   useEffect(() => {
-    console.log("here");
     if (theme === "theme-dark") {
       document.body.classList.remove("theme-light");
       document.body.classList.add("theme-dark");
