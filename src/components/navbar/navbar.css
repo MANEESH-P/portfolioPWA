@@ -19,5 +19,7 @@ a.nav:hover {
     background-color: var(--color-primary);
     position: fixed;
     width: 100%;
+    top: 0;
+    margin-bottom: 150px;
   }
 }
