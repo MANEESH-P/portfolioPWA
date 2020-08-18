@@ -116,7 +116,7 @@ export default function Art() {
             </a> */}
             <div class="max-w-sm rounded overflow-hidden  sketchfab-embed-wrapper">
               <iframe
-                src="https://sketchfab.com/models/de1a0de146fd4aa69221b8679d9459cd/embed?autospin=1&autostart=1&camera=0&ui_infos=0&ui_controls=0&ui_stop=0&ui_watermark=0"
+                src="https://sketchfab.com/models/de1a0de146fd4aa69221b8679d9459cd/embed"
                 frameborder="0"
                 allow="autoplay; fullscreen; vr"
                 mozallowfullscreen="true"
