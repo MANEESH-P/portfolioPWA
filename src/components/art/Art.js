@@ -106,35 +106,6 @@ export default function Art() {
           </div>
         </div>
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-10 grid grid-col-1 sm:grid-cols-2 gap-10 mb-10">
-          <div class="max-w-sm rounded overflow-hidden shadow-2xl h-56">
-            {/* <a
-              href="https://sketchfab.com/3d-models/gec-palakkad-kerala-india-de1a0de146fd4aa69221b8679d9459cd"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img class="w-full" src={gec} alt="Sunset in the mountains" />
-            </a> */}
-            <div class="sketchfab-embed-wrapper w-full ">
-              <iframe
-                src="https://sketchfab.com/models/de1a0de146fd4aa69221b8679d9459cd/embed?autospin=1&autostart=1&camera=0&ui_infos=0&ui_controls=0&ui_stop=0&ui_watermark=0"
-                frameborder="0"
-                allow="autoplay; fullscreen; vr"
-                mozallowfullscreen="true"
-                webkitallowfullscreen="true"
-                title="gec"
-                className="w-full"
-              ></iframe>
-            </div>
-            <div class="px-6 py-4 bg-primary-color">
-              <div class="font-bold text-xl mb-2">
-                <h2>College 3D model</h2>
-              </div>
-              <p class="text-base">
-                3D model of Govt Engineerng College Palakkad using Blender.
-                Click to view.
-              </p>
-            </div>
-          </div>
           <div class="max-w-sm rounded overflow-hidden bg-primary-color shadow-2xl">
             <img class="w-full" src={house} alt="Sunset in the mountains" />
             <div class="px-6 py-4 bg-primary-color">
@@ -151,6 +122,36 @@ export default function Art() {
                 <h2>Campfire</h2>
               </div>
               <p class="text-base ">3D model of a campfire scene in lowpoly.</p>
+            </div>
+          </div>
+          <div class="max-w-sm rounded overflow-hidden shadow-2xl h-56">
+            {/* <a
+              href="https://sketchfab.com/3d-models/gec-palakkad-kerala-india-de1a0de146fd4aa69221b8679d9459cd"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img class="w-full" src={gec} alt="Sunset in the mountains" />
+            </a> */}
+            <div class="sketchfab-embed-wrapper">
+              <iframe
+                src="https://sketchfab.com/models/de1a0de146fd4aa69221b8679d9459cd/embed?autospin=1&autostart=1&camera=0&ui_infos=0&ui_controls=0&ui_stop=0&ui_watermark=0"
+                frameborder="0"
+                allow="autoplay; fullscreen; vr"
+                mozallowfullscreen="true"
+                webkitallowfullscreen="true"
+                title="gec"
+                className="w-full"
+                height="200"
+              ></iframe>
+            </div>
+            <div class="px-6 py-4 bg-primary-color">
+              <div class="font-bold text-xl mb-2">
+                <h2>College 3D model</h2>
+              </div>
+              <p class="text-base">
+                3D model of Govt Engineerng College Palakkad using Blender.
+                Click to view.
+              </p>
             </div>
           </div>
         </div>
