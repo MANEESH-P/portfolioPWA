@@ -123,7 +123,6 @@ export default function Art() {
                 webkitallowfullscreen="true"
                 title="gec"
                 className="w-full"
-                height="200"
               ></iframe>
             </div>
             <div class="px-6 py-4 bg-primary-color">
