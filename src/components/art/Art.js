@@ -106,7 +106,7 @@ export default function Art() {
           </div>
         </div>
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-10 grid grid-col-1 sm:grid-cols-2 gap-10 mb-10">
-          <div class="">
+          <div class="shadow-2xl">
             {/* <a
               href="https://sketchfab.com/3d-models/gec-palakkad-kerala-india-de1a0de146fd4aa69221b8679d9459cd"
               target="_blank"
@@ -114,7 +114,7 @@ export default function Art() {
             >
               <img class="w-full" src={gec} alt="Sunset in the mountains" />
             </a> */}
-            <div class="max-w-sm rounded overflow-hidden shadow-2xl sketchfab-embed-wrapper">
+            <div class="max-w-sm rounded overflow-hidden  sketchfab-embed-wrapper">
               <iframe
                 src="https://sketchfab.com/models/de1a0de146fd4aa69221b8679d9459cd/embed?autospin=1&autostart=1&camera=0&ui_infos=0&ui_controls=0&ui_stop=0&ui_watermark=0"
                 frameborder="0"
