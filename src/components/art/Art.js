@@ -106,14 +106,48 @@ export default function Art() {
           </div>
         </div>
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-10 grid grid-col-1 sm:grid-cols-2 gap-10 mb-10">
-          <div class="max-w-sm rounded overflow-hidden shadow-2xl">
-            <a
+          <div class="max-w-sm rounded overflow-hidden shadow-2xl h-56">
+            {/* <a
               href="https://sketchfab.com/3d-models/gec-palakkad-kerala-india-de1a0de146fd4aa69221b8679d9459cd"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img class="w-full" src={gec} alt="Sunset in the mountains" />
-            </a>
+            </a> */}
+            <div class="sketchfab-embed-wrapper w-full ">
+              <iframe
+                src="https://sketchfab.com/models/de1a0de146fd4aa69221b8679d9459cd/embed"
+                frameborder="0"
+                allow="autoplay; fullscreen; vr"
+                mozallowfullscreen="true"
+                webkitallowfullscreen="true"
+                title="gec"
+                className="w-full"
+                height="200"
+              ></iframe>
+              {/* <p>
+                <a
+                  href="https://sketchfab.com/models/de1a0de146fd4aa69221b8679d9459cd?utm_medium=embed&utm_source=website&utm_campaign=share-popup"
+                  target="_blank"
+                >
+                  GEC Palakkad Kerala India
+                </a>
+                by{" "}
+                <a
+                  href="https://sketchfab.com/maneeshp?utm_medium=embed&utm_source=website&utm_campaign=share-popup"
+                  target="_blank"
+                >
+                  MANEESH
+                </a>
+                on{" "}
+                <a
+                  href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup"
+                  target="_blank"
+                >
+                  SKETCHFAB
+                </a>
+              </p> */}
+            </div>
             <div class="px-6 py-4 bg-primary-color">
               <div class="font-bold text-xl mb-2">
                 <h2>College 3D model</h2>
