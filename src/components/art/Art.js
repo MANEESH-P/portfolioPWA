@@ -116,7 +116,7 @@ export default function Art() {
             </a> */}
             <div class="sketchfab-embed-wrapper w-full ">
               <iframe
-                src="https://sketchfab.com/models/de1a0de146fd4aa69221b8679d9459cd/embed"
+                src="https://sketchfab.com/models/de1a0de146fd4aa69221b8679d9459cd/embed?autospin=1&autostart=1&camera=0&ui_infos=0&ui_controls=0&ui_stop=0&ui_watermark=0"
                 frameborder="0"
                 allow="autoplay; fullscreen; vr"
                 mozallowfullscreen="true"
@@ -125,28 +125,6 @@ export default function Art() {
                 className="w-full"
                 height="200"
               ></iframe>
-              {/* <p>
-                <a
-                  href="https://sketchfab.com/models/de1a0de146fd4aa69221b8679d9459cd?utm_medium=embed&utm_source=website&utm_campaign=share-popup"
-                  target="_blank"
-                >
-                  GEC Palakkad Kerala India
-                </a>
-                by{" "}
-                <a
-                  href="https://sketchfab.com/maneeshp?utm_medium=embed&utm_source=website&utm_campaign=share-popup"
-                  target="_blank"
-                >
-                  MANEESH
-                </a>
-                on{" "}
-                <a
-                  href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup"
-                  target="_blank"
-                >
-                  SKETCHFAB
-                </a>
-              </p> */}
             </div>
             <div class="px-6 py-4 bg-primary-color">
               <div class="font-bold text-xl mb-2">
