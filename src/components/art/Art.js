@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import Footer from "../footer/Footer";
 import logan from "../../assets/logan.jpg";
 import tony from "../../assets/tony.jpg";
@@ -11,7 +12,6 @@ import birds from "../../assets/birds.jpg";
 import jackman from "../../assets/jackman.jpg";
 import jan from "../../assets/jan.jpg";
 import cr7 from "../../assets/cr7.jpg";
-import gec from "../../assets/gec.jpg";
 import house from "../../assets/house.jpg";
 import campfire from "../../assets/campfire.jpg";
 
@@ -31,66 +31,88 @@ export default function Art() {
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-10">
           <div class="row">
             <div class="column">
-              <img
-                className="border-2 transform hover:scale-105 shadow-2xl"
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="border-2  shadow-2xl"
                 alt="sketch"
                 src={logan}
               />
-              <img
-                className="border-2 shadow-2xl transform hover:scale-105"
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="border-2 shadow-2xl "
                 alt="sketch"
                 src={jan}
               />
 
-              <img
-                className="border-2 shadow-2xl transform hover:scale-105"
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="border-2 shadow-2xl "
                 alt="sketch"
                 src={jackman}
               />
             </div>
             <div class="column">
-              <img
-                className="shadow-2xl transform hover:scale-105"
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="shadow-2xl "
                 alt="sketch"
                 src={spiderman}
               />
 
-              <img
-                className="border-2 shadow-2xl transform hover:scale-105"
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="border-2 shadow-2xl "
                 alt="sketch"
                 src={tony}
               />
             </div>
             <div className="column">
-              <img
-                className="border-2 shadow-2xl transform hover:scale-105"
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="border-2 shadow-2xl "
                 alt="sketch"
                 src={baby}
               />
-              <img
-                className="border-2 shadow-2xl transform hover:scale-105"
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="border-2 shadow-2xl"
                 alt="sketch"
                 src={hug}
               />
-              <img
-                className="border-2 shadow-2xl transform hover:scale-105"
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="border-2 shadow-2xl"
                 alt="sketch"
                 src={cr7}
               />
             </div>
             <div className="column">
-              <img
-                className="border-2 shadow-2xl transform hover:scale-105"
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="border-2 shadow-2xl"
                 alt="sketch"
                 src={emma}
               />
-              <img
-                className="border-2 shadow-2xl transform hover:scale-105"
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="border-2 shadow-2xl"
                 alt="sketch"
                 src={hoodie}
               />
-              <img
-                className="border-2 transform hover:scale-105 shadow-2xl"
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="border-2 shadow-2xl"
                 alt="sketch"
                 src={birds}
               />
@@ -107,13 +129,6 @@ export default function Art() {
         </div>
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-10 grid grid-col-1 sm:grid-cols-2 gap-10 mb-10">
           <div class="shadow-2xl">
-            {/* <a
-              href="https://sketchfab.com/3d-models/gec-palakkad-kerala-india-de1a0de146fd4aa69221b8679d9459cd"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img class="w-full" src={gec} alt="Sunset in the mountains" />
-            </a> */}
             <div class="max-w-sm rounded overflow-hidden  sketchfab-embed-wrapper">
               <iframe
                 src="https://sketchfab.com/models/de1a0de146fd4aa69221b8679d9459cd/embed"

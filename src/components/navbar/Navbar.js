@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 
@@ -36,11 +38,15 @@ export default function Navbar() {
       <nav class="flex items-center justify-between flex-wrap p-6 pl-5 pr-5  sm:px-40 sm:py-10 md:px-20 lg:px-40">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
           <Link to="/">
-            <h1 className="brand">
+            <motion.h1
+              className="brand"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <span class="tracking-tight font-semibold text-xl">
                 Maneesh P
               </span>
-            </h1>
+            </motion.h1>
           </Link>
         </div>
         <div className="flex justify-end mr-5">
@@ -58,7 +64,9 @@ export default function Navbar() {
         </div>
         <div class="block lg:hidden">
           <button
-            onClick={toggleNavbar}
+            onClick={() => {
+              toggleNavbar();
+            }}
             id="hamburgerbtn"
             class="focus:outline-none flex items-center px-3 py-2 pb-1 border rounded text-white border-primary-color hover:text-white  hover:border-white"
           >
@@ -85,34 +93,42 @@ export default function Navbar() {
             </svg>
           </button>
         </div>
-        <div
+        <motion.div
           id="mobileMenu"
           class="mt-1 w-full lg:block hidden flex-grow flex lg:items-center  lg:w-auto z-40"
         >
-          <div class="text-sm lg:flex justify-end">
-            <Link
-              to="/about"
-              class="nav block mt-4 lg:inline-block lg:mt-0  mr-10 text-lg sm:text-lg"
-              onClick={toggleNavbar}
-            >
-              About
-            </Link>
-            <Link
-              to="/code"
-              class="nav block mt-4 lg:inline-block lg:mt-0  mr-10 text-lg sm:text-lg"
-              onClick={toggleNavbar}
-            >
-              Code
-            </Link>
-            <Link
-              to="/art"
-              class="nav block mt-4 lg:inline-block lg:mt-0 text-lg sm:text-lg "
-              onClick={toggleNavbar}
-            >
-              Art
-            </Link>
-          </div>
-        </div>
+          <motion.nav className="nav">
+            <motion.div class="text-sm lg:flex justify-end">
+              <motion.a whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+                <Link
+                  to="/about"
+                  class="nav block mt-4 lg:inline-block lg:mt-0  mr-10 text-lg sm:text-lg"
+                  onClick={toggleNavbar}
+                >
+                  About
+                </Link>
+              </motion.a>
+              <motion.a whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+                <Link
+                  to="/code"
+                  class="nav block mt-4 lg:inline-block lg:mt-0  mr-10 text-lg sm:text-lg"
+                  onClick={toggleNavbar}
+                >
+                  Code
+                </Link>
+              </motion.a>
+              <motion.a whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+                <Link
+                  to="/art"
+                  class="nav block mt-4 lg:inline-block lg:mt-0 text-lg sm:text-lg "
+                  onClick={toggleNavbar}
+                >
+                  Art
+                </Link>
+              </motion.a>
+            </motion.div>
+          </motion.nav>
+        </motion.div>
       </nav>
     </div>
   );

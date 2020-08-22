@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import Footer from "../footer/Footer";
 import img from "../../assets/pro2.jpg";
 import "./about.css";
@@ -22,7 +23,9 @@ export default function About() {
           </p>
         </div>
         <div class="flex sm:w-1/4 ml-5 sm:ml-auto mr-5 sm:mr-auto mt-10">
-          <img
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
             src={img}
             style={{ borderRadius: "50%" }}
             alt=""
