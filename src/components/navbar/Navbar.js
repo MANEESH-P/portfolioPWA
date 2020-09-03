@@ -99,7 +99,10 @@ export default function Navbar() {
         >
           <motion.nav className="nav">
             <motion.div class="text-sm lg:flex justify-end">
-              <motion.a whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+              <motion.span
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
                 <Link
                   to="/about"
                   class="nav block mt-4 lg:inline-block lg:mt-0  mr-10 text-lg sm:text-lg"
@@ -107,8 +110,11 @@ export default function Navbar() {
                 >
                   About
                 </Link>
-              </motion.a>
-              <motion.a whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+              </motion.span>
+              <motion.span
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
                 <Link
                   to="/code"
                   class="nav block mt-4 lg:inline-block lg:mt-0  mr-10 text-lg sm:text-lg"
@@ -116,8 +122,11 @@ export default function Navbar() {
                 >
                   Code
                 </Link>
-              </motion.a>
-              <motion.a whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+              </motion.span>
+              <motion.span
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
                 <Link
                   to="/art"
                   class="nav block mt-4 lg:inline-block lg:mt-0 text-lg sm:text-lg "
@@ -125,7 +134,7 @@ export default function Navbar() {
                 >
                   Art
                 </Link>
-              </motion.a>
+              </motion.span>
             </motion.div>
           </motion.nav>
         </motion.div>
