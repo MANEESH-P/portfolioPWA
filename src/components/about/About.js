@@ -67,7 +67,7 @@ export default function About() {
               Ionic
             </span>{" "}
             to develop saledrive, a sales management application. <br /> <br />{" "}
-            After graduation, I did product engineerig at{" "}
+            After graduation, I did product engineering at{" "}
             <a
               href="https://www.globallogic.com/in/"
               target="blank"
