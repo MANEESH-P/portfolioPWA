@@ -75,7 +75,7 @@ export default function About() {
             >
               GlobalLogic
             </a>{" "}
-            India for almost an year - utilizing
+            India for almost a year - utilizing
             <span className="hover:text-valorant-red font-semibold underline ml-2">
               AWS
             </span>
