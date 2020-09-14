@@ -35,12 +35,13 @@ export default function About() {
         <div class="flex flex-wrap sm:w-1/2 ml-5 sm:ml-auto mr-5 sm:mr-auto mt-5">
           <p className="text-xl mt-5">
             I'm a self taught developer with solid expertise in Frontend and
-            Javascript. I love involving myself in many pervasive tech.(3D
+            Javascript. I love involving myself in many pervasive tech(3D
             modelling via{" "}
             <span className="hover:text-valorant-red font-semibold underline">
               Blender
             </span>
-            , Cloud, Machine Learning to name a few) <br /> <br />
+            , Cloud, Machine Learning to name a few), however frontend is what
+            makes me happy. <br /> <br />
             Apart from work I like to sketch out life on a white sheet of paper.{" "}
             <br />
             <br />
@@ -66,7 +67,15 @@ export default function About() {
               Ionic
             </span>{" "}
             to develop saledrive, a sales management application. <br /> <br />{" "}
-            Currently I do product engineerig at GlobalLogic India - utilizing
+            After graduation, I did product engineerig at{" "}
+            <a
+              href="https://www.globallogic.com/in/"
+              target="blank"
+              className="font-semibold underline"
+            >
+              GlobalLogic
+            </a>{" "}
+            India for almost an year - utilizing
             <span className="hover:text-valorant-red font-semibold underline ml-2">
               AWS
             </span>
@@ -74,8 +83,18 @@ export default function About() {
             <span className="hover:text-valorant-red font-semibold underline ml-2">
               Azure
             </span>{" "}
-            to put happy smiles in the faces of my clients (and my managers{" "}
-            <span className="text-valorant-red">;)</span>).
+            to put happy smiles in the faces of my clients(and my managers{" "}
+            <span className="text-valorant-red">;)</span>). <br /> <br />
+            Following my area of interest and to find happiness in what i do I
+            joined{" "}
+            <a
+              href="https://surveysparrow.com"
+              target="blank"
+              className="font-semibold underline text-valorant-red"
+            >
+              SurveySparrow
+            </a>{" "}
+            as a Frontend developer &#10084; in September 2020.
           </p>
         </div>
       </div>
