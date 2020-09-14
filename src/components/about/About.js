@@ -85,7 +85,7 @@ export default function About() {
             </span>{" "}
             to put happy smiles in the faces of my clients(and my managers{" "}
             <span className="text-valorant-red">;)</span>). <br /> <br />
-            Following my area of interest and to find happiness in what i do I
+            Following my area of interest and to find happiness in what I do, I
             joined{" "}
             <a
               href="https://surveysparrow.com"
