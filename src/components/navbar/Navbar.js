@@ -27,9 +27,13 @@ export default function Navbar() {
     if (theme === "theme-dark") {
       document.body.classList.remove("theme-light");
       document.body.classList.add("theme-dark");
+      document.querySelector('html').classList.remove("theme-light");
+      document.querySelector('html').classList.add("theme-dark");
     } else {
       document.body.classList.remove("theme-dark");
       document.body.classList.add("theme-light");
+      document.querySelector('html').classList.remove("theme-dark");
+      document.querySelector('html').classList.add("theme-light");     
     }
   });
 
