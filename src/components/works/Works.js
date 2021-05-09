@@ -9,7 +9,7 @@ import "./work.css";
 export default function Works() {
   return (
     <React.Fragment className="bg-valorant-violet">
-      <div className="min-h-screen sm:mt-0">
+      <div className="min-h-screen sm:mt-0 pt-4">
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-20">
           <div className="flex w-full items-center">
             <h1 className="w-2/6 sm:w-1/6 inline-block text-4xl">Works</h1>
