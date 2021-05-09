@@ -19,7 +19,7 @@ import "./art.css";
 export default function Art() {
   return (
     <>
-      <div className="min-h-screen mb-20 mt-32 sm:mt-0">
+      <div className="min-h-screen mb-20 sm:mt-0">
         <div class="flex flex-wrap sm:w-1/2 ml-5 mr-5 sm:ml-auto sm:mr-auto mt-20">
           <div className="flex w-full items-center">
             <div className="w-3/6 sm:w-1/4 md:w-3/6 lg:w-1/4">

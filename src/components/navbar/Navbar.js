@@ -39,7 +39,7 @@ export default function Navbar() {
 
   return (
     <div className="nav-div shadow-xl sm:shadow-none z-50">
-      <nav class="flex items-center justify-between flex-wrap p-6 pl-5 pr-5  sm:px-40 sm:py-10 md:px-20 lg:px-40">
+      <nav class="flex items-center justify-between flex-wrap p-6 pl-5 pr-5  sm:px-20 sm:py-10 md:px-20 lg:px-40">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
           <Link to="/">
             <motion.h1

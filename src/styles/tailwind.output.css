@@ -734,10 +734,6 @@ video {
   height: 100%;
 }
 
-.h-screen{
-  height: 100vh;
-}
-
 .text-sm{
   font-size: 0.875rem;
 }
@@ -778,6 +774,10 @@ video {
   margin-right: 0.25rem;
 }
 
+.mr-2{
+  margin-right: 0.5rem;
+}
+
 .mb-2{
   margin-bottom: 0.5rem;
 }
@@ -788,10 +788,6 @@ video {
 
 .mt-4{
   margin-top: 1rem;
-}
-
-.mr-4{
-  margin-right: 1rem;
 }
 
 .mt-5{
@@ -832,14 +828,6 @@ video {
 
 .mb-20{
   margin-bottom: 5rem;
-}
-
-.mt-24{
-  margin-top: 6rem;
-}
-
-.mt-32{
-  margin-top: 8rem;
 }
 
 .ml-px{
@@ -894,8 +882,8 @@ video {
   padding-bottom: 0.25rem;
 }
 
-.pr-4{
-  padding-right: 1rem;
+.pr-2{
+  padding-right: 0.5rem;
 }
 
 .pr-5{
@@ -1017,21 +1005,6 @@ video {
 
 .col-start-3{
   grid-column-start: 3;
-}
-
-.transform{
-  --transform-translate-x: 0;
-  --transform-translate-y: 0;
-  --transform-rotate: 0;
-  --transform-skew-x: 0;
-  --transform-skew-y: 0;
-  --transform-scale-x: 1;
-  --transform-scale-y: 1;
-  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
-}
-
-.-translate-y-16{
-  --transform-translate-y: -4rem;
 }
 
 @-webkit-keyframes spin{
@@ -1180,9 +1153,9 @@ video {
     padding-bottom: 2.5rem;
   }
 
-  .sm\:px-40{
-    padding-left: 10rem;
-    padding-right: 10rem;
+  .sm\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .sm\:pr-5{
@@ -1224,10 +1197,6 @@ video {
   .sm\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-
-  .sm\:-translate-y-12{
-    --transform-translate-y: -3rem;
-  }
 }
 
 @media (min-width: 768px){
@@ -1259,9 +1228,12 @@ video {
     }
   }
 
-  .md\:px-2{
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+  .md\:mr-auto{
+    margin-right: auto;
+  }
+
+  .md\:ml-auto{
+    margin-left: auto;
   }
 
   .md\:py-10{
@@ -1276,10 +1248,6 @@ video {
 
   .md\:w-3\/6{
     width: 50%;
-  }
-
-  .md\:-translate-y-16{
-    --transform-translate-y: -4rem;
   }
 }
 
@@ -1348,6 +1316,11 @@ video {
     margin-top: 0;
   }
 
+  .lg\:px-2{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .lg\:py-10{
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
@@ -1360,6 +1333,10 @@ video {
 
   .lg\:w-auto{
     width: auto;
+  }
+
+  .lg\:w-1\/2{
+    width: 50%;
   }
 
   .lg\:w-1\/4{
@@ -1384,10 +1361,6 @@ video {
 
   .lg\:col-start-4{
     grid-column-start: 4;
-  }
-
-  .lg\:-translate-y-1\/2{
-    --transform-translate-y: -50%;
   }
 }
 
